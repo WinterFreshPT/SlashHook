@@ -1,13 +1,11 @@
-![banner](http://elite4.tk/supreme.png)
+![banner](http://b.hitlers.kz/cdakof.png)
 
-## What is Supreme Hack?
+## What is This shit.
 
-Supreme is a upgraded hack based on AimTux and fully featured internal hack for *CounterStrike : Global Offensive* written in C++.
+Well, Its a shitty fork.
 
 ## WARNING!
-**Note:** _Developing freezed i'm start making (pasting) new p2c windows hax_
-
-Here i only adding good stuff from GitHub sources or commits.For my addings i use BitBucket with closed source if you want access for this write to me.
+If you're down right braindead please refrain from using this and linux all togheter.
 
 ## Compiling
 
@@ -45,11 +43,11 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 #### Download Supreme:
 
 ```bash
-git clone --recursive https://github.com/BlastWorld/Supreme
+git clone --recursive https://github.com/TheDankPaster/xd
 ```
 
 ```bash
-cd Supreme
+cd xd
 ```
 
 ##
@@ -75,7 +73,7 @@ First of all, make sure CSGO is open, it doesn't matter whether you're in game o
 Navigate to the directory where Supreme was built if you haven't ready.
 
 ```bash
-cd Supreme
+cd xd
 ```
 
 Now, you can inject the hack with the `load` script
@@ -83,7 +81,7 @@ Now, you can inject the hack with the `load` script
 ```bash
 ./load
 ```
-
+Yes this is using GDB, I'm not giving you my injector sauce. And don't ask to buy it.
 You might be prompted to enter in your password, this is because the injection script requires root access.
 
 You should see a lot of text being printed out, most of which is not important,
@@ -96,7 +94,7 @@ Now, go back into csgo, if you're in the main menu of the game you should see th
 
 ## Using the hack
 
-Now that Supreme has been injected into the game, press <kbd>Insert</kbd> on your keyboard to open the hack menu (<kbd>ALT</kbd>+<kbd>I</kbd> if you're using a laptop).
+Now that xd has been injected into the game, press <kbd>Insert</kbd> on your keyboard to open the hack menu (<kbd>ALT</kbd>+<kbd>I</kbd> if you're using a laptop).
 
 If you want to change skins, create and load configs or open the player list, you can find those buttons at the top of the screen.
 
@@ -110,11 +108,11 @@ If you wish to unload the hack from the game, you can do so by entering the comm
 
 ## Updating Supreme
 
-We add and improve and fix things almost every day with Supreme. We don't have a fixed release schedule, we just add things to it when they're ready. Because of this, Supreme will need to update a lot.
+We add and improve and fix things almost every 9 - 20 years with xd. We don't have a fixed release schedule, we just add things to it when i'm really fucking bored. Because of this, xd will need to be at the mercy of some idiot on his computer.
 
 If you don't update once a day then we recommend at LEAST update once a week, and ALWAYS update after a CSGO update, just to make sure we fix anything that's broken.
 
-We provide a script included in the Supreme folder that updates Supreme for you. To use it, just run:
+We provide a script included in the xd folder that updates xd for you. To use it, just run:
 
 ```
 ./update
@@ -127,32 +125,32 @@ And it will download and compile without any effort. Once it's done, happy hacki
 Configs are stored in a hidden directory in your home folder. Specifically 
 
 ```
-~/.config/Supreme/Main
+~/.config/xd/Main
 ```
 
 Each `config.json` is stored in a seperately named folder (The name you see in-game, in the config window). 
  
-To add a config, create a folder inside of the `~/.config/Supreme/Main` folder with a name of your choice, and paste the `config.json` inside of that folder.
+To add a config, create a folder inside of the `~/.config/xd/Main` folder with a name of your choice, and paste the `config.json` inside of that folder.
 
 To see hidden folders inside your home folder, press <kbd>CTRL</kbd>+<kbd>H</kbd> when using a file manager.
 
 ## Grenade Configs
 
 ```
-~/.config/Supreme/Misc
+~/.config/xd/Misc
 ```
 
 Each `config.json` is stored in the folder named after them map name.
 
 To add a config, copy the folder containing it to `~/.config/Supreme/Misc`
 
-## Contributing to Supreme
+## Contributing to xd
 
 If you wish to contribute code to this opensource project, please keep some things mind before creating a *pull request*:
  - Make sure you're using the correct [code style](https://github.com/AimTuxOfficial/AimTux/wiki/Code-Style).
  - Make sure your commits are clean and straight forward ( no junk commits )
  - Explain what you've done in your pull request.
-
+ - Let's be honest, We all paste. I don't care if you pasted it, If it works and you want it added make a pull request.
 
 ## Screenshots
 
@@ -164,3 +162,6 @@ If you wish to contribute code to this opensource project, please keep some thin
 Special thanks to [@aixxe](http://www.github.com/aixxe/) ([aixxe.net](http://www.aixxe.net)) for the skin changer and with the initial project, as well as helping this project with source code (Available on [@aixxe's](http://www.github.com/aixxe/) github page.)
 
 This project was also originally based upon Atex's [Linux Basehook](http://unknowncheats.me/forum/counterstrike-global-offensive/181878-linux-basehook.html).
+
+## PSA for all.
+If you encounter anyone selling a pInjector they use and is undetected 89% of the time it's a scam. Example: GreenScamSoftware
