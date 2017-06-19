@@ -1,16 +1,16 @@
 # Maintainer: aixxe <me@aixxe.net>
-_pkgname=supreme-hack
-pkgname=supreme-git
+_pkgname=dank-hack
+pkgname=dank-git
 pkgver=v1.0.r703.g9e7c759
 pkgrel=1
 pkgdesc="Upgraded open source internal multi-hack based on AimTux for Counter-Strike:Global Offensive"
 arch=("x86_64")
-url="https://github.com/BlastWorld/Supreme"
+url="https://github.com/TheDankPaster/TheNewNew"
 license=("GPL3")
 depends=("gdb" "sudo" "procps-ng")
 makedepends=("git" "cmake" "make" "gcc" "sdl2")
 install="${_pkgname}.install"
-source=("${_pkgname}::git+${url}.git" "git://github.com/AimTuxOfficial/imgui.git" "supreme-load" "supreme-uload")
+source=("${_pkgname}::git+${url}.git" "git://github.com/AimTuxOfficial/imgui.git" "dank-load" "dank-uload")
 sha256sums=('SKIP'
             'SKIP'
             '5ac2581c29337a1a56bbef703d674ac359652d13ecd50975a63256b4d47d322c'
@@ -33,10 +33,10 @@ build() {
 }
 
 package() {
-	install -Dm755 supreme-load "$pkgdir"/usr/bin/supreme-load
-	install -Dm755 supreme-uload "$pkgdir"/usr/bin/supreme-uload
+	install -Dm755 dank-load "$pkgdir"/usr/bin/dank-load
+	install -Dm755 dank-uload "$pkgdir"/usr/bin/dank-uload
 	
 	cd "${_pkgname}"
 	make DESTDIR="$pkgdir/"
-	install -Dm755 libSupreme.so "$pkgdir"/usr/lib/libSupreme.so
+	install -Dm755 libDank.so "$pkgdir"/usr/lib/libDank.so
 }
