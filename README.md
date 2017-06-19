@@ -11,7 +11,7 @@ If you're down right braindead please refrain from using this and linux all togh
 
 **Note:** _Do NOT download or compile as the root user_
 
-#### Download the dependencies required to build Supreme:
+#### Download the dependencies required to build xd:
 
 __Ubuntu-Based / Debian:__
 ```bash
@@ -40,7 +40,7 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 
 ##
 
-#### Download Supreme:
+#### Download xd:
 
 ```bash
 git clone --recursive https://github.com/TheDankPaster/xd
@@ -106,7 +106,7 @@ If you wish to unload the hack from the game, you can do so by entering the comm
 ./uload
 ```
 
-## Updating Supreme
+## Updating xd
 
 We add and improve and fix things almost every 9 - 20 years with xd. We don't have a fixed release schedule, we just add things to it when i'm really fucking bored. Because of this, xd will need to be at the mercy of some idiot on his computer.
 
