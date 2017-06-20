@@ -11,7 +11,7 @@ If you're down right braindead please refrain from using this and linux all togh
 
 **Note:** _Do NOT download or compile as the root user_
 
-#### Download the dependencies required to build xd:
+#### Download the dependencies required to build TheNewNew:
 
 __Ubuntu-Based / Debian:__
 ```bash
@@ -43,11 +43,11 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 #### Download xd:
 
 ```bash
-git clone --recursive https://github.com/TheDankPaster/xd
+git clone --recursive https://github.com/TheDankPaster/TheNewNew
 ```
 
 ```bash
-cd xd
+cd TheNewNew
 ```
 
 ##
@@ -73,7 +73,7 @@ First of all, make sure CSGO is open, it doesn't matter whether you're in game o
 Navigate to the directory where Supreme was built if you haven't ready.
 
 ```bash
-cd xd
+cd TheNewNew
 ```
 
 Now, you can inject the hack with the `load` script
@@ -106,7 +106,7 @@ If you wish to unload the hack from the game, you can do so by entering the comm
 ./uload
 ```
 
-## Updating xd
+## Updating TheNewNew
 
 We add and improve and fix things almost every 9 - 20 years with xd. We don't have a fixed release schedule, we just add things to it when i'm really fucking bored. Because of this, xd will need to be at the mercy of some idiot on his computer.
 
@@ -125,26 +125,26 @@ And it will download and compile without any effort. Once it's done, happy hacki
 Configs are stored in a hidden directory in your home folder. Specifically 
 
 ```
-~/.config/xd/Main
+~/.config/TheNewNew/Main
 ```
 
 Each `config.json` is stored in a seperately named folder (The name you see in-game, in the config window). 
  
-To add a config, create a folder inside of the `~/.config/xd/Main` folder with a name of your choice, and paste the `config.json` inside of that folder.
+To add a config, create a folder inside of the `~/.config/TheNewNew/Main` folder with a name of your choice, and paste the `config.json` inside of that folder.
 
 To see hidden folders inside your home folder, press <kbd>CTRL</kbd>+<kbd>H</kbd> when using a file manager.
 
 ## Grenade Configs
 
 ```
-~/.config/xd/Misc
+~/.config/TheNewNew/Misc
 ```
 
 Each `config.json` is stored in the folder named after them map name.
 
-To add a config, copy the folder containing it to `~/.config/Supreme/Misc`
+To add a config, copy the folder containing it to `~/.config/TheNewNew/Misc`
 
-## Contributing to xd
+## Contributing to TheNewNew
 
 If you wish to contribute code to this opensource project, please keep some things mind before creating a *pull request*:
  - Make sure you're using the correct [code style](https://github.com/AimTuxOfficial/AimTux/wiki/Code-Style).
@@ -164,4 +164,4 @@ Special thanks to [@aixxe](http://www.github.com/aixxe/) ([aixxe.net](http://www
 This project was also originally based upon Atex's [Linux Basehook](http://unknowncheats.me/forum/counterstrike-global-offensive/181878-linux-basehook.html).
 
 ## PSA for all.
-If you encounter anyone selling a pInjector they use and is undetected 89% of the time it's a scam. Example: GreenScamSoftware
+If you encounter anyone selling a pInjector they use and is undetected 89% of the time it's a scam. Example: GreenByteScamware
