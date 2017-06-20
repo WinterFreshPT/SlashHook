@@ -108,11 +108,11 @@ If you wish to unload the hack from the game, you can do so by entering the comm
 
 ## Updating TheNewNew
 
-We add and improve and fix things almost every 9 - 20 years with xd. We don't have a fixed release schedule, we just add things to it when i'm really fucking bored. Because of this, xd will need to be at the mercy of some idiot on his computer.
+We add and improve and fix things almost every 9 - 20 years with xd. We don't have a fixed release schedule, we just add things to it when i'm really fucking bored. Because of this, TheNewNew will need to be at the mercy of some idiot on his computer.
 
 If you don't update once a day then we recommend at LEAST update once a week, and ALWAYS update after a CSGO update, just to make sure we fix anything that's broken.
 
-We provide a script included in the xd folder that updates xd for you. To use it, just run:
+We provide a script included in the TheNewNew folder that updates xd for you. To use it, just run:
 
 ```
 ./update
