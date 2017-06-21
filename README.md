@@ -52,6 +52,14 @@ cd TheNewNew
 
 ##
 
+#### How to Download and Compile hotpatcher for injection.
+
+```bash
+git clone https://github.com/vikasnkumar/hotpatch
+cd hotpatch-master
+make
+sudo make install
+```
 #### Generate a makefile
 
 ```bash
