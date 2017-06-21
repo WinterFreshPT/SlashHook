@@ -54,7 +54,7 @@ cd TheNewNew
 
 #### How to Download and Compile hotpatcher for injection.
 
-Fast Install : ```bash git clone https://github.com/vikasnkumar/hotpatch && cd hotpatch-master && make && sudo make install```
+Fast Install : ``` git clone https://github.com/vikasnkumar/hotpatch && cd hotpatch-master && make && sudo make install```
 ^ You can copy the entire line and paste it into terminal for a quick and automated install
 #### "Manual Install"
 
