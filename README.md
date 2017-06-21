@@ -40,7 +40,7 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 
 ##
 
-#### Download xd:
+#### Download TheNewNew:
 
 ```bash
 git clone --recursive https://github.com/TheDankPaster/TheNewNew
@@ -161,7 +161,13 @@ If you wish to contribute code to this opensource project, please keep some thin
 ## Credits
 Special thanks to [@aixxe](http://www.github.com/aixxe/) ([aixxe.net](http://www.aixxe.net)) for the skin changer and with the initial project, as well as helping this project with source code (Available on [@aixxe's](http://www.github.com/aixxe/) github page.)
 
+## More Credits
+
+Credits to BlastWorld for the creation of the fork i based my fork on, Credits to the founders of linux, Credits to the founders of the AimTux Project.
+
 This project was also originally based upon Atex's [Linux Basehook](http://unknowncheats.me/forum/counterstrike-global-offensive/181878-linux-basehook.html).
 
 ## PSA for all.
 If you encounter anyone selling a pInjector they use and is undetected 89% of the time it's a scam. Example: GreenByteScamware
+
+HMU if you want to add some changes... Or you know just make a pull req.
