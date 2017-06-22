@@ -17,13 +17,13 @@ sudo chmod 000 /tmp/dumps # No permissions
 
 
 #Credit: Aixxe @ aixxe.net
-if grep -q libFuzion.so /proc/$csgo_pid/maps; then
+if grep -q libTheNewNew.so /proc/$csgo_pid/maps; then
     /bin/echo -e "\e[33mAimTux-Fuzion is already injected... Aborting...\e[0m"
     exit
 fi
 
 input="$(
-sudo hotpatcher -l $(pwd)/libFuzion.so $csgo_pid | tail -n 2 | head -n 1
+sudo hotpatcher -l $(pwd)/libTheNewNew.so $csgo_pid | tail -n 2 | head -n 1
 )" # Only read the 2nd latest line of the output from hotpatcher
 
 last_line="${input##*$'\n'}"
