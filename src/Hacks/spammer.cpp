@@ -12,7 +12,7 @@ bool Settings::Spammer::RadioSpammer::enabled = false;
 std::vector<std::string> Settings::Spammer::NormalSpammer::messages = {
 		"I'AM BAD CODER",
 		"DON'T LIKE TOMATOES",
-		"SUPREME HACK",
+		"Slash is BB",
 		"ELITE4 OWNS U AND ALL",
 		"ELITE4LEGIT.TK",
 		"ELITE4HVH.TK"
