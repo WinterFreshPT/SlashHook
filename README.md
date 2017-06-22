@@ -95,7 +95,7 @@ Now, you can inject the hack with the `load` script
 ```bash
 ./load
 ```
-Yes this is using GDB, I'm not giving you my injector sauce. And don't ask to buy it.
+Yes this is using Hotpatcher, I'm not giving you my injector sauce. And don't ask to buy it.
 You might be prompted to enter in your password, this is because the injection script requires root access.
 
 You should see a lot of text being printed out, most of which is not important,
