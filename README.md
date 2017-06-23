@@ -43,7 +43,7 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 #### Download TheNewNew:
 
 ```bash
-git clone --recursive https://github.com/TheDankPaster/TheNewNew
+git clone --recursive https://github.com/DankPaster/TheNewNew
 ```
 
 ```bash
