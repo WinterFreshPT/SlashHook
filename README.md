@@ -1,8 +1,8 @@
 ![banner](http://b.hitlers.kz/cdakof.png)
 
-## What is This shit.
+## Dectected?
 
-Well, Its a shitty fork.
+Marc the "Founder" of basicly all these hotpatcher forks got his account banned which he said that he ONLY injected using hotpatcher, Take this as a disclaimer as i could not care less if you get your fucking account banned lmao
 
 ## WARNING!
 If you're down right braindead please refrain from using this and linux all togheter.
