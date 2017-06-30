@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
-project(TheNewNew)
+project(SlashHook)
 
 if("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
     if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS 5.2)
         message(FATAL_ERROR "Your GCC seems outdated. Go to https://github.com/AimTuxOfficial/AimTux/wiki/Updating-your-compiler for further instructions. If you have done so and still see this message, run 'git clean -fdx' and try again")
     endif()
 else()
-    message(FATAL_ERROR "You must have GCC >= 5.2 installed in order to compile TheNewNew. Go to https://github.com/AimTuxOfficial/AimTux/wiki/Updating-your-compiler for further instructions.")
+    message(FATAL_ERROR "You must have GCC >= 5.2 installed in order to compile SlashHook. Go to https://github.com/AimTuxOfficial/AimTux/wiki/Updating-your-compiler for further instructions.")
 endif()
 
 FUNCTION (EXCLUDE_FILES_FROM_DIR_IN_LIST _InFileList _excludeDirName _verbose)
