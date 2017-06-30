@@ -11,7 +11,7 @@ If you're down right braindead please refrain from using this and linux all togh
 
 **Note:** _Do NOT download or compile as the root user_
 
-#### Download the dependencies required to build TheNewNew:
+#### Download the dependencies required to build SlashHook:
 
 __Ubuntu-Based / Debian:__
 ```bash
