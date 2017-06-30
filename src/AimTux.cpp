@@ -38,7 +38,7 @@ int __attribute__((constructor)) AimTuxInit()
 	Hooker::HookSwapWindow();
 	Hooker::HookPollEvent();
 
-	cvar->ConsoleColorPrintf(ColorRGBA(150, 150, 255), "Xd was successfully injected.\n");
+	cvar->ConsoleColorPrintf(ColorRGBA(150, 150, 255), "SlashHook was successfully injected.\n");
 
 	ModSupport::OnInit();
 
