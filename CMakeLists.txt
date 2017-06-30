@@ -39,5 +39,5 @@ file(GLOB_RECURSE SOURCE_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 EXCLUDE_FILES_FROM_DIR_IN_LIST("${SOURCE_FILES}" "${CMAKE_SOURCE_DIR}/src/ImGUI/examples/" FALSE)
 EXCLUDE_FILES_FROM_DIR_IN_LIST("${SOURCE_FILES}" "${CMAKE_SOURCE_DIR}/src/ImGUI/extra_fonts" FALSE)
 
-add_library(TheNewNew SHARED ${SOURCE_FILES})
-target_link_libraries(TheNewNew SDL2 GL dl)
+add_library(SlashHook SHARED ${SOURCE_FILES})
+target_link_libraries(SlashHook SDL2 GL dl)
