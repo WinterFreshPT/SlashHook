@@ -15,7 +15,7 @@ If you're down right braindead please refrain from using this and linux all togh
 
 __Ubuntu-Based / Debian:__
 ```bash
-sudo apt-get install cmake g++ gdb git libsdl2-dev zlib1g-dev
+sudo apt-get install cmake g++ gdb git libsdl2-dev zlib1g-dev libgles2-mesa-dev
 ```
 
 If you're having problems compiling make sure you've got the latest version of `g++`.
